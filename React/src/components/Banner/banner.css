@@ -1,3 +1,71 @@
-.imagem-fundo {
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+img {
+    margin-top: 15px;
     width: 100%;
+}
+
+.header {
+    position: relative;
+}
+
+.escritas {
+    background-color: #FFF3E3;
+    width: 643px;
+    height: 470px;
+    border-radius: 10px;
+    position: absolute;
+    top: 70%;
+    left: 75%;
+    transform: translate(-55%, -80%);
+}
+
+.pequeno-texto {
+    font-family: 'Poppins';
+    font-weight: 600;
+    margin-left: 3rem;
+    margin-right: 5rem;
+    font-size: 16px;
+    margin-top: 4rem;
+    letter-spacing: 3px;
+}
+
+.titulo {
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #B88E2F;
+    margin-left: 3rem;
+    margin-right: 150px;
+    font-size: 52px;
+    margin-top: 5px;
+
+}
+
+.especificacao {
+    font-family: 'Poppins';
+    font-weight: 500;
+    margin-left: 3rem;
+    margin-right: 4rem;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.mudar-pagina {
+    background-color: #B88E2F;
+    width: 222px;
+    height: 74px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 3rem;
+    margin-right: 6rem;
+    font-size: 16px;
+    margin-top: 3rem;
 }

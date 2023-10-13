@@ -3,7 +3,7 @@
 }
 
 .logo {
-    margin-top: 24px;
+    margin-top: 7px;
     padding-right: 10px;
     padding-left: 50px;
 }
@@ -11,6 +11,7 @@
 .nome {
     font-family: 'Montserrat';
     font-weight: 700;
+    margin-top: 20px;
 }
 
 .paginas {
@@ -20,6 +21,7 @@
     gap: 70px;
     margin-left: 18rem;
     font-weight: 500;
+    margin-top: 25px;
 }
 
 

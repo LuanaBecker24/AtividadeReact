@@ -10,10 +10,10 @@ function Header() {
                 <h1>Furniro</h1>
             </div>
             <div className='paginas'>
-                <p>Home</p>
-                <p>Shop</p>
-                <p>About</p>
-                <p>Contact</p>
+                <a className='home'>Home</a>
+                <a className='shop'>Shop</a>
+                <a className='about'>About</a>
+                <a className='contact'>Contact</a>
             </div>
         </header>
     )
