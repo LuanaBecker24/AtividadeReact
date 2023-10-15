@@ -1,12 +1,12 @@
 import Header from "./components/Header";
-import Banner from "./components/Banner";
+import Home from "./pages/Home";
 import "./App.css"
 
 const App = () => {
   return (
     <div className="centro">
       <Header/>
-      <Banner/>
+      <Home/>
     </div>
   )
 };

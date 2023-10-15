@@ -1,32 +1,40 @@
 .header {
-    display: flex;
-}
-
-.logo {
-    margin-top: 7px;
-    padding-right: 10px;
-    padding-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .nome {
-    font-family: 'Montserrat';
-    font-weight: 700;
-    margin-top: 20px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  margin-top: 13px;
+  font-size: 18px;
 }
 
 .paginas {
-    font-family: 'Poppins';
-    margin-top: 17px;
-    display: flex;
-    gap: 70px;
-    margin-left: 18rem;
-    font-weight: 500;
-    margin-top: 25px;
+  font-family: "Poppins";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 1rem;
 }
 
+.container_icones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 2rem;
+}
 
-
-
-
-
-
+.container_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
