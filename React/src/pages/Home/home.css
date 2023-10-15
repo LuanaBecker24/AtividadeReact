@@ -8,16 +8,30 @@ img {
     width: 100%;
 }
 
+.header_home {
+    margin-top: 1rem;
+}
+
+.container_banner {
+    min-height: 43rem;
+    background-image: url("../../../public/images/ImagemFundo.png");
+    background-repeat: no-repeat;
+}
+
+.container_primeira_parte {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
 
 .primeira_parte {
     background-color: #FFF3E3;
-    width: 643px;
-    height: 443px;
+    max-width: 643px;
+    min-height: 443px;
     border-radius: 10px;
-    position: absolute;
-    top: 70%;
-    left: 75%;
-    transform: translate(-50%, -80%);
+    margin-left: 45rem;
 }
 
 .pequeno-texto {
@@ -71,12 +85,69 @@ img {
 }
 
 .segunda_parte {
+    display: grid;
     justify-content: center;
     align-items: center;
+    padding: 2rem;
 }
 
 .subtitulo {
     font-family: 'Poppins';
     font-weight: 700;
     font-size: 32px;
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frase {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    color: #666666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.container_primeira_imagem{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_segunda_imagem{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_terceira_imagem{
+    display: grid;
+    justify-content: center;
+}
+
+.img-pair {
+    border-radius: 0.5rem;
+    margin-top: 0px;
+    min-height: 30rem;
+}
+
+.textos_imagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 1rem;
+    color: #333333;
+}
+
+.container_imagens {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;  
 }

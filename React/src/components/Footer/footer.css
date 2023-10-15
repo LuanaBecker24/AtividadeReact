@@ -1,0 +1,168 @@
+footer {
+  display: grid;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.container_footer {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  justify-content: space-around;
+  padding: 3rem;
+}
+
+.container_segunda_coluna {
+  display: grid;
+  gap: 1rem;
+  margin: 0 20px;
+}
+
+.container_terceira_coluna {
+  display: grid;
+  gap: 1rem;
+  margin: 0 20px;
+}
+
+.container_primeira_coluna {
+    margin: 0 20px;
+}
+
+.container_quarta_coluna {
+    margin: 0 20px;
+}
+
+.texto_logo {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 24px;
+  color: #000000;
+}
+
+.texto_primeira_coluna {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  color: #9f9f9f;
+  margin-top: 12rem;
+}
+
+.link {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  color: #9f9f9f;
+}
+
+.home {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  margin-top: 3rem;
+}
+
+.shop {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+}
+
+.about {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+}
+
+.contact {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+}
+
+.help {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  color: #9f9f9f;
+}
+
+.pagamentos {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  margin-top: 6.5rem;
+}
+
+.retornos {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+}
+
+.politica_privacidade {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+}
+
+.noticias {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  color: #9f9f9f;
+}
+
+.container_opcoes {
+  display: grid;
+  align-items: center;
+  gap: 2rem;
+}
+
+.container_input_botao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 14rem;
+}
+
+.input_noticias {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: black solid 1px;
+  padding: 0.3rem;
+  min-width: 11rem;
+}
+
+.botao_inscrever {
+  background-color: transparent;
+  color: #000000;
+  border: none;
+  border-bottom: black solid 1px;
+  padding: 0.3rem;
+  cursor: pointer;
+}
+
+.linha {
+  background-color: #d9d9d9;
+  height: 1px;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.creditos {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
