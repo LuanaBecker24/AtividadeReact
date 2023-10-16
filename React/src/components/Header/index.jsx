@@ -18,7 +18,7 @@ function Header() {
       </div>
       </div>
       <div className="paginas">
-        <a className="home">Home</a>
+        <a className="home_header">Home</a>
         <a className="shop" to={"/shop"}>
           Shop
         </a>

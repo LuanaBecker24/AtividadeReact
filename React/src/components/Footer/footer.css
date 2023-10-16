@@ -15,21 +15,12 @@ footer {
 .container_segunda_coluna {
   display: grid;
   gap: 1rem;
-  margin: 0 20px;
+
 }
 
 .container_terceira_coluna {
   display: grid;
   gap: 1rem;
-  margin: 0 20px;
-}
-
-.container_primeira_coluna {
-    margin: 0 20px;
-}
-
-.container_quarta_coluna {
-    margin: 0 20px;
 }
 
 .texto_logo {
