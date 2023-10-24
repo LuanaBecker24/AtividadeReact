@@ -1,5 +1,4 @@
 footer {
-  display: grid;
   align-items: center;
   margin-top: 3rem;
 }
@@ -35,7 +34,11 @@ footer {
   font-weight: 400;
   font-size: 16px;
   color: #9f9f9f;
-  margin-top: 12rem;
+  margin-top: 3rem;
+}
+
+a {
+  display: grid;
 }
 
 .link {
@@ -50,7 +53,6 @@ footer {
   font-weight: 500;
   font-size: 16px;
   color: #000000;
-  margin-top: 3rem;
 }
 
 .shop {
@@ -86,7 +88,6 @@ footer {
   font-weight: 500;
   font-size: 16px;
   color: #000000;
-  margin-top: 6.5rem;
 }
 
 .retornos {
@@ -111,7 +112,6 @@ footer {
 }
 
 .container_opcoes {
-  display: grid;
   align-items: center;
   gap: 2rem;
 }
@@ -121,7 +121,6 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  margin-top: 14rem;
 }
 
 .input_noticias {

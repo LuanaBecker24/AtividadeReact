@@ -18,7 +18,10 @@
 }
 
 .icone {
-    size: 200px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 10px;
 }
 
 .texto_destaque h1 {
