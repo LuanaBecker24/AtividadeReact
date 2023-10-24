@@ -6,6 +6,10 @@
   padding-right: 2rem;
 }
 
+.logo {
+  margin-top: 20px;
+}
+
 .nome {
   font-family: "Montserrat";
   font-weight: 700;
