@@ -113,7 +113,8 @@ a {
 
 .container_opcoes {
   align-items: center;
-  gap: 2rem;
+  gap: 3rem;
+  margin-top: 10px;
 }
 
 .container_input_botao {

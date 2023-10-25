@@ -9,7 +9,7 @@ function Destaques() {
                 <div className="container_destaques">
                     <div className="conteudo_destaques">
                         <div className="icone">
-                            <Trophy />
+                            <Trophy style={{width: 60, height: 60}} />
                         </div>
                         <div className="texto_destaque">
                             <h1>High Quality</h1>
@@ -18,7 +18,7 @@ function Destaques() {
                     </div>
                     <div className="conteudo_destaques">
                         <div className="icone">
-                            <BadgeCheck />
+                            <BadgeCheck style={{width: 60, height: 60}} />
                         </div>
                         <div className="texto_destaque">
                             <h1>Warranty Protection</h1>
@@ -27,7 +27,7 @@ function Destaques() {
                     </div>
                     <div className="conteudo_destaques">
                         <div className="icone">
-                            <Package />
+                            <Package style={{width: 60, height: 60}} />
                         </div>
                         <div className="texto_destaque">
                             <h1>Free Shipping</h1>
@@ -36,7 +36,7 @@ function Destaques() {
                     </div>
                     <div className="conteudo_destaques">
                         <div className="icone">
-                            <Speech />
+                            <Speech style={{width: 60, height: 60}} />
                         </div>
                         <div className="texto_destaque">
                             <h1>24 / 7 Support</h1>
