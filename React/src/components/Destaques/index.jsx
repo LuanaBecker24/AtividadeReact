@@ -2,7 +2,7 @@ import "./destaques.css";
 
 import { Trophy, BadgeCheck, Package, Speech } from 'lucide-react';
 
-function Destaques() {
+export default function Destaques() {
     return (
         <main>
             <div className="destaques">
@@ -49,5 +49,3 @@ function Destaques() {
 
     );
 }
-
-export default Destaques;

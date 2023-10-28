@@ -1,0 +1,48 @@
+.card {
+    background-color: #F4F5F7;
+    height: 460px;
+    width: 285px;
+}
+
+.textos_card {
+    display: grid;
+    margin-left: 1rem;
+}
+
+.textos_card h1 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 24px;
+    color: #3A3A3A;
+    margin-top: 10px;
+}
+
+.textos_card h2 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+    color: #3A3A3A;
+    margin-top: 10px;
+}
+
+.textos_card p {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    color: #898989;
+    margin-top: 10px;
+}
+
+.rp {
+    display: flex;
+    gap: 1rem;
+    margin-top: 5px;
+}
+
+.rp p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    color: #B0B0B0;
+    text-decoration-line: line-through;
+}

@@ -1,12 +1,10 @@
 import { Link } from "react-router-dom";
 
-import Shop from "../../pages/Shop";
-
 import { User, Search, Heart, ShoppingCart } from 'lucide-react'
 
 import "./header.css";
 
-function Header() {
+export default function Header() {
   return (
     <header className="header">
       <div className="container_logo">
@@ -19,9 +17,7 @@ function Header() {
       </div>
       <div className="paginas">
         <a className="home_header">Home</a>
-        <a className="shop" to={"/shop"}>
-          Shop
-        </a>
+        <a className="shop">Shop</a>
         <a className="about">About</a>
         <a className="contact">Contact</a>
       </div>
@@ -34,5 +30,3 @@ function Header() {
     </header>
   );
 }
-
-export default Header;

@@ -1,6 +1,6 @@
 footer {
   align-items: center;
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 
 .container_footer {
@@ -14,12 +14,13 @@ footer {
 .container_segunda_coluna {
   display: grid;
   gap: 1rem;
-
+  margin-top: 5px;
 }
 
 .container_terceira_coluna {
   display: grid;
   gap: 1rem;
+  margin-bottom: 1.3rem;
 }
 
 .texto_logo {
@@ -109,12 +110,13 @@ a {
   font-weight: 500;
   font-size: 16px;
   color: #9f9f9f;
+  margin-bottom: 1.5rem;
 }
 
 .container_opcoes {
   align-items: center;
-  gap: 3rem;
-  margin-top: 10px;
+  gap: 4rem;
+  margin-top: 15px;
 }
 
 .container_input_botao {
@@ -147,6 +149,11 @@ a {
   height: 1px;
   margin-left: 5rem;
   margin-right: 5rem;
+}
+
+.container_quarta_coluna {
+  display: grid;
+  margin-bottom: 4.5rem;
 }
 
 .creditos {

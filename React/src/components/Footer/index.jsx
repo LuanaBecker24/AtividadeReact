@@ -1,6 +1,6 @@
 import "./footer.css";
 
-function Footer() {
+export default function Footer() {
   return (
     <footer>
       <div className="container_footer">
@@ -47,5 +47,3 @@ function Footer() {
     </footer>
   );
 }
-
-export default Footer;
