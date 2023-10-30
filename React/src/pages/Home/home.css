@@ -210,3 +210,154 @@
     background-color: #B88E2F;
     color: #FFFFFF;
 }
+
+.quarta_parte {
+    display: flex;
+    margin-top: 4rem;
+    background-color: #FCF8F3;
+    width: 100%;
+    height: 670px;
+}
+
+.parte_inicial {
+    gap: 4rem;
+    display: flex;
+    margin-top: 4rem;
+    margin: 2rem;
+    padding: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.escritas {
+    justify-content: center;
+    align-items: center;
+}
+
+.escritas h1 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 40px;
+    color: #3A3A3A;
+}
+
+.escritas p {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    color: #616161;
+    margin-top: 5px;
+}
+
+.escritas a {
+    background-color: #B88E2F;
+    width: 176px;
+    height: 48px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #FFFFFF;
+    border: solid 2px;
+    border-color: #B88E2F;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.escritas a:hover {
+    background-color: #FFFFFF;
+    color: #B88E2F;
+}
+
+.segundo_banner {
+    min-width: 404px;
+    height: 582px;
+    background-image: url("../../../public/images/Rectangle\ 24.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.carrossel_imagens {
+    display: flex;
+    margin-top: 2.7rem;
+}
+
+.carrossel_imagens a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.primeira_imagem_carrossel {
+    min-width: 372px;
+    height: 486px;
+}
+
+.segunda_imagem_carrossel {
+    min-width: 52px;
+    height: 486px;
+}
+
+.botao_passar {
+    background-color: #FFFFFF;
+    max-width: 48px;
+    height: 48px;
+    color: #B88E2F;
+    text-decoration: none;
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 100%;
+}
+
+.primeira_escrita {
+    display: flex;
+}
+
+.escrita_total {
+    background-color: #FFFFFF;
+    opacity: 72%;
+    min-width: 217px;
+    min-height: 130px;
+    padding: 1rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    margin-right: 1rem;
+    margin-top: 25rem;
+}
+
+.primeira_escrita {
+    display: flex;
+}
+
+.conteudo_total {
+    display: flex;
+}
+
+.botao_proximo {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    margin-bottom: 2rem;
+}
+
+.botao_proximo a {
+    background-color: #B88E2F;
+    width: 48px;
+    height: 48px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
