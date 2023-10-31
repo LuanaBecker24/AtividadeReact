@@ -286,6 +286,7 @@
 .carrossel_imagens {
     display: flex;
     margin-top: 2.7rem;
+    gap: 1.5rem;
 }
 
 .carrossel_imagens a {
@@ -314,7 +315,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
     border-radius: 100%;
 }
 
@@ -327,28 +327,44 @@
     opacity: 72%;
     min-width: 217px;
     min-height: 130px;
-    padding: 1rem;
+    margin-top: 26rem;
+}
+
+.banner_escritas {
     display: grid;
     justify-content: center;
     align-items: center;
-    margin: 1rem;
-    margin-right: 1rem;
-    margin-top: 25rem;
+    margin-top: 2rem;
 }
 
 .primeira_escrita {
     display: flex;
 }
 
+.primeira_escrita p {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    color: #616161;
+}
+
+.escrita_total h2 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 28px;
+    color: #3A3A3A;
+}
+
 .conteudo_total {
     display: flex;
+    margin: 1rem;
+    margin-right: 1rem;
 }
 
 .botao_proximo {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: flex-end;
-    margin-bottom: 2rem;
 }
 
 .botao_proximo a {

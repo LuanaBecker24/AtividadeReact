@@ -118,38 +118,39 @@ export default function Home() {
           </div>
         </div>
         <div className="quarta_parte">
-          <div className="parte_inicial">
-            <div className="escritas">
-              <h1>50+ Beautiful rooms inspiration</h1>
-              <p>Our designer already made a lot of beautiful prototipe of rooms that inspire you</p>
-              <div className="botao_explorar">
-                <a>Explore More</a>
+          <div className="separacao">
+            <div className="parte_inicial">
+              <div className="escritas">
+                <h1>50+ Beautiful rooms inspiration</h1>
+                <p>Our designer already made a lot of beautiful prototipe of rooms that inspire you</p>
+                <div className="botao_explorar">
+                  <a>Explore More</a>
+                </div>
               </div>
-            </div>
-            <div className="segundo_banner">
-              <div className="container_elementos">
-                <div className="conteudo_total">
-                  <div className="escrita_total">
-                    <div className="primeira_escrita">
-                      <p>01</p>
-                      <Minus />
-                      <p>Bed Room</p>
+              <div className="segundo_banner">
+                <div className="container_elementos">
+                  <div className="conteudo_total">
+                    <div className="escrita_total">
+                      <div className="banner_escritas">
+                        <div className="primeira_escrita">
+                          <p>01</p>
+                          <Minus />
+                          <p>Bed Room</p>
+                        </div>
+                        <h2>Inner Peace</h2>
+                      </div>
                     </div>
-                    <h2>Inner Peace</h2>
-                  </div>
-                  <div className="botao_proximo">
-                    <a><ArrowRight /></a>
+                    <div className="botao_proximo">
+                      <a><ArrowRight /></a>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div className="carrossel_imagens">
-            <img src="../../public/images/Rectangle 25.png" alt="primeira_imagem_carrossel" className="primeira_imagem_carrossel" />
-            <div className="botao_passar">
-              <a><ChevronRight /></a>
+            <div className="carrossel_imagens">
+              <img src="../../public/images/Rectangle 25.png" alt="primeira_imagem_carrossel" className="primeira_imagem_carrossel" />
+              <img src="../../public/images/Rectangle 26.png" alt="segunda_imagem_carrossel" className="segunda_imagem_carrossel" />
             </div>
-            <img src="../../public/images/Rectangle 26.png" alt="segunda_imagem_carrossel" className="segunda_imagem_carrossel" />
           </div>
         </div>
       </main>
