@@ -1,6 +1,6 @@
 # Atividade para praticar o uso do React
 
-Comando para rodar:
+``Comando para rodar:
   - cd react
   - npm i
-  - npm run dev
+  - npm run dev´´
