@@ -286,7 +286,7 @@
 .carrossel_imagens {
     display: flex;
     margin-top: 2.7rem;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 .carrossel_imagens a {
